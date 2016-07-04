@@ -9,10 +9,10 @@
 Currently it takes the admin department 2 – 3 days to capture the manual vehicle logbooks (paper based) each month and 
 convert it into electronic.  
 
-<b>Goals : </b>
-Reduce time taken by Admin department capturing manual vehicle logbooks
-Reduce human errors 
-Simplified reporting process
+<b>Goals : </b><br>
+Reduce time taken by Admin department capturing manual vehicle logbooks <br>
+Reduce human errors <br>
+Simplified reporting process <br>
 
 <b>Architecture :</b>
 
