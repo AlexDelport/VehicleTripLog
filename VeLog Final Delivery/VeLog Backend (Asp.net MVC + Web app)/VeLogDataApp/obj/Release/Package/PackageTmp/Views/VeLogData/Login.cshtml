@@ -1,0 +1,45 @@
+﻿@model VeLogDataApp.Models.User
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    @Styles.Render("~/Content/normalize.css")
+    @Styles.Render("~/Content/skeleton.css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+    @using (Html.BeginForm("Login", "VeLogData", FormMethod.Post))
+    {
+        <div class="container">
+            <div class="twelve columns" style="margin-top: 5%">
+                <div>
+                    <h1>Login</h1>
+                </div>
+                <div>
+                    <div>
+                        @Html.EditorFor(model => Model.Username, new { htmlAttributes = new { placeholder = "Driver Name" } })
+                        @Html.ValidationMessageFor(Model => Model.Username, "", new { @class = "text-danger" })
+                    </div>
+                    <div>
+                        @Html.PasswordFor(model => Model.Password, new { htmlAttributes = new { placeholder = "Driver Name" } })
+                        @Html.ValidationMessageFor(Model => Model.Password, "", new { @class = "text-danger" })
+                    </div>
+                    <div>
+                        <button type="submit">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>}
+</body>
+</html>
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+

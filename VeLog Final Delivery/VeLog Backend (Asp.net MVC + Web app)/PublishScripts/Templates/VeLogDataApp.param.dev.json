@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "VeLogDataApp"
+  },
+  "hostingPlanName": {
+    "value": "VeLogDataServiceAPI"
+  },
+  "siteLocation": {
+    "value": "Australia Southeast"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "764552f4-9406-4197-9010-e70b06869caf"
+  },
+  "resourceGroup": {
+    "value": "VehicleLogProject"
+  }
+}

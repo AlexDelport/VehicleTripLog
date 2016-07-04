@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="VelogDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="tblvelogCampus">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Campus" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="tblVelogCars">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Registration" Type="varchar" MaxLength="20" />
+          <Property Name="Make" Type="varchar" MaxLength="20" />
+          <Property Name="Model" Type="varchar" MaxLength="20" />
+          <Property Name="Colour" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="tblvelogCourses">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Courses" Type="varchar" MaxLength="50" />
+          <Property Name="Division" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="tblVeLogData">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CreationDate" Type="date" />
+          <Property Name="StartMileage" Type="float" />
+          <Property Name="EndMileage" Type="float" />
+          <Property Name="Comment" Type="varchar" MaxLength="2000" />
+          <Property Name="DriverName" Type="varchar" MaxLength="100" />
+          <Property Name="Division" Type="varchar" MaxLength="50" />
+          <Property Name="Campus" Type="varchar" MaxLength="50" />
+          <Property Name="Course" Type="varchar" MaxLength="50" />
+          <Property Name="VehicleRego" Type="varchar" MaxLength="50" />
+          <Property Name="Distance" Type="float" />
+          <Property Name="Status" Type="varchar" MaxLength="50" />
+          <Property Name="TripId" Type="varchar" MaxLength="2000" />
+        </EntityType>
+        <EntityType Name="tblvelogDivision">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Division" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="tblvelogUsers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Username" Type="varchar" MaxLength="100" />
+          <Property Name="Password" Type="varchar" MaxLength="20" />
+          <Property Name="Role" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <EntityContainer Name="VelogDataModelStoreContainer">
+          <EntitySet Name="tblvelogCampus" EntityType="Self.tblvelogCampus" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblVelogCars" EntityType="Self.tblVelogCars" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblvelogCourses" EntityType="Self.tblvelogCourses" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblVeLogData" EntityType="Self.tblVeLogData" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblvelogDivision" EntityType="Self.tblvelogDivision" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblvelogUsers" EntityType="Self.tblvelogUsers" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="VelogDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="VeLogData">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CreationDate" Type="DateTime" Precision="0" />
+          <Property Name="StartMileage" Type="Double" />
+          <Property Name="EndMileage" Type="Double" />
+          <Property Name="Comment" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+          <Property Name="DriverName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Division" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Campus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Course" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="VehicleRego" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Distance" Type="Double" />
+          <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="TripId" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblvelogUser">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Username" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Role" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="VelogDataContext" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="VeLogDatas" EntityType="VelogDataModel.VeLogData" />
+          <EntitySet Name="tblvelogUsers" EntityType="Self.tblvelogUser" />
+          <EntitySet Name="tblvelogCampus" EntityType="VelogDataModel.tblvelogCampu" />
+          <EntitySet Name="tblvelogCourses" EntityType="VelogDataModel.tblvelogCours" />
+          <EntitySet Name="tblvelogDivisions" EntityType="VelogDataModel.tblvelogDivision" />
+          <EntitySet Name="tblVelogCars" EntityType="VelogDataModel.tblVelogCar" />
+        </EntityContainer>
+        <EntityType Name="tblvelogCampu">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Campus" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblvelogCours">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Courses" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Division" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblvelogDivision">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Division" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblVelogCar">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Registration" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Make" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Model" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Colour" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="VelogDataModelStoreContainer" CdmEntityContainer="VelogDataContext">
+          <EntitySetMapping Name="VeLogDatas">
+            <EntityTypeMapping TypeName="VelogDataModel.VeLogData">
+              <MappingFragment StoreEntitySet="tblVeLogData">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+                <ScalarProperty Name="StartMileage" ColumnName="StartMileage" />
+                <ScalarProperty Name="EndMileage" ColumnName="EndMileage" />
+                <ScalarProperty Name="Comment" ColumnName="Comment" />
+                <ScalarProperty Name="DriverName" ColumnName="DriverName" />
+                <ScalarProperty Name="Division" ColumnName="Division" />
+                <ScalarProperty Name="Campus" ColumnName="Campus" />
+                <ScalarProperty Name="Course" ColumnName="Course" />
+                <ScalarProperty Name="VehicleRego" ColumnName="VehicleRego" />
+                <ScalarProperty Name="Distance" ColumnName="Distance" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="TripId" ColumnName="TripId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblvelogUsers">
+            <EntityTypeMapping TypeName="VelogDataModel.tblvelogUser">
+              <MappingFragment StoreEntitySet="tblvelogUsers">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Role" ColumnName="Role" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblvelogCampus">
+            <EntityTypeMapping TypeName="VelogDataModel.tblvelogCampu">
+              <MappingFragment StoreEntitySet="tblvelogCampus">
+                <ScalarProperty Name="Campus" ColumnName="Campus" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblvelogCourses">
+            <EntityTypeMapping TypeName="VelogDataModel.tblvelogCours">
+              <MappingFragment StoreEntitySet="tblvelogCourses">
+                <ScalarProperty Name="Division" ColumnName="Division" />
+                <ScalarProperty Name="Courses" ColumnName="Courses" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblvelogDivisions">
+            <EntityTypeMapping TypeName="VelogDataModel.tblvelogDivision">
+              <MappingFragment StoreEntitySet="tblvelogDivision">
+                <ScalarProperty Name="Division" ColumnName="Division" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblVelogCars">
+            <EntityTypeMapping TypeName="VelogDataModel.tblVelogCar">
+              <MappingFragment StoreEntitySet="tblVelogCars">
+                <ScalarProperty Name="Colour" ColumnName="Colour" />
+                <ScalarProperty Name="Model" ColumnName="Model" />
+                <ScalarProperty Name="Make" ColumnName="Make" />
+                <ScalarProperty Name="Registration" ColumnName="Registration" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

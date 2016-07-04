@@ -1,0 +1,26 @@
+﻿@model VeLogDataApp.Models.LocationData
+
+@using (Html.BeginAjaxContentValidation("form0"))
+{
+    using (Html.BeginCollectionItem("LocationList"))
+    {
+        Html.EnableClientValidation();
+        <div class="row">
+            <div class="three columns">
+                @*Html.ValidationMessageFor(Model => Model.Division)*@
+                @Html.DropDownListFor(model => Model.Division, null, "--Select Division--", new { required = "required" })
+            </div>
+            <div class="three columns">
+                @*@Html.ValidationMessageFor(Model => Model.Course)*@
+                @Html.DropDownListFor(model => Model.Course, null, "--Select Course--", new { required = "required" })
+            </div>
+            <div class="three columns">
+                @*@Html.ValidationMessageFor(Model => Model.Campus)*@
+                @Html.DropDownListFor(model => Model.Campus, null, "--Select Campus--", new { required = "required" })
+            </div>
+            <div class="three columns">
+                <button type="button" id="delete" class="deleteButton">Delete</button>
+            </div>
+        </div>
+    }
+}

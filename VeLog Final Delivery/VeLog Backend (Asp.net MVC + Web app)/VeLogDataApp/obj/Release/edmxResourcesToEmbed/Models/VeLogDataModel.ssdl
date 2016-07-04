@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VelogDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tblvelogCampus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Campus" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tblVelogCars">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Registration" Type="varchar" MaxLength="20" />
+    <Property Name="Make" Type="varchar" MaxLength="20" />
+    <Property Name="Model" Type="varchar" MaxLength="20" />
+    <Property Name="Colour" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tblvelogCourses">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Courses" Type="varchar" MaxLength="50" />
+    <Property Name="Division" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tblVeLogData">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CreationDate" Type="date" />
+    <Property Name="StartMileage" Type="float" />
+    <Property Name="EndMileage" Type="float" />
+    <Property Name="Comment" Type="varchar" MaxLength="2000" />
+    <Property Name="DriverName" Type="varchar" MaxLength="100" />
+    <Property Name="Division" Type="varchar" MaxLength="50" />
+    <Property Name="Campus" Type="varchar" MaxLength="50" />
+    <Property Name="Course" Type="varchar" MaxLength="50" />
+    <Property Name="VehicleRego" Type="varchar" MaxLength="50" />
+    <Property Name="Distance" Type="float" />
+    <Property Name="Status" Type="varchar" MaxLength="50" />
+    <Property Name="TripId" Type="varchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="tblvelogDivision">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Division" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tblvelogUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="varchar" MaxLength="100" />
+    <Property Name="Password" Type="varchar" MaxLength="20" />
+    <Property Name="Role" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="VelogDataModelStoreContainer">
+    <EntitySet Name="tblvelogCampus" EntityType="Self.tblvelogCampus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblVelogCars" EntityType="Self.tblVelogCars" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblvelogCourses" EntityType="Self.tblvelogCourses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblVeLogData" EntityType="Self.tblVeLogData" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblvelogDivision" EntityType="Self.tblvelogDivision" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblvelogUsers" EntityType="Self.tblvelogUsers" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,180 @@
+﻿
+@{
+    Layout = null;
+}
+@model VeLogDataApp.Models.VeLogDataView
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+    
+    <script src="~/Scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
+
+    @Styles.Render("~/Content/normalize.css")
+    @Styles.Render("~/Content/skeleton.css")
+    @Scripts.Render("~/bundles/modernizr")
+
+     <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btnAdd").on('click', function () {
+
+                $.ajax({
+                    async: false,
+                    url: '/VeLogData/CreateNewLoaction'
+                }).success(function (partialView) {
+                    $('#newBooks').append(partialView);
+                    Sys.Mvc.FormContext._Application_Load();
+
+                });
+            });
+
+
+            $('body').on("click",".deleteButton", function () {
+                   
+                $(this).parents("div.row:first").remove()
+                return false;
+            });
+
+
+            $('body').on("change", "[id^='LocationList'][id$='Division']", function () {
+                var Divisionid = $(this).prop('id')
+                var Courseid = Divisionid.replace('Division', 'Course')
+                $.ajax({
+                    async: false,
+                    url: '/VeLogData/GetCourses',
+                    data: { Division: $('#'+Divisionid).val() }
+                }).success(function (data) {
+                    $('#'+Courseid).empty()
+                    $.each(data, function (i, course) {
+                        $('#'+Courseid).append('<option value="' + course.Value + '">' + course.Text + '</option>')
+
+                    });
+
+                });
+            });
+
+            $("#VehicleRego").change(function () {
+                $.ajax({
+                    async: false,
+                    url: '/VeLogData/GetMakeModel',
+                    data: { Reg: $("#VehicleRego").val() }
+                }).success(function (data) {
+                    $.each(data, function (i, rec) {
+                        $('#MakeCmb').val(rec.model + '--' + rec.make + '--' + rec.color)
+
+                    });
+                });
+
+                $.ajax({
+                    async: false,
+                    url: '/VeLogData/GetEndMileage',
+                    data: { Reg: $("#VehicleRego").val() }
+                }).success(function (data) {
+                    $.each(data, function (i, rec) {
+                        $('#MakeMileage').val(' End Mileage from previous trip=' + rec.endMileage )
+
+                    });
+                });
+
+            });
+                $('#Division').change(function () {
+                 $.ajax({
+                    async: false,
+                    url: '/VeLogData/GetCourses',
+                    data: { Division: $("#Division").val() }
+                }).success(function (data) {
+                    $('#Course').empty()
+                    $.each(data, function (i, course) {
+                        $('#Course').append('<option value="'+course.Value +'">'+course.Text+'</option>')
+
+                    });
+
+                });
+
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+        @using (Html.BeginForm("Create", "VeLogData", FormMethod.Post))
+    {
+            <div class="container body-content">
+                <div class="container">
+                    <div class="twelve columns" style="margin-top: 5%">
+                        <div> <img src="~/Content/atccorp_logo.png" alt="ATC New Zealand" /> <h1>Vehicle Logger</h1></div>
+                        <div>
+                            @*@Html.ValidationMessageFor(Model => Model.DriverName)*@
+                            @Html.EditorFor(model => Model.DriverName, new { htmlAttributes = new { required = "required", placeholder = "Driver Name" } })
+                        </div>
+                        <div>
+                            @*@Html.ValidationMessageFor(Model => Model.VehicleRego)*@
+                           @Html.DropDownListFor(model => Model.VehicleRego, null, "--Select VehicleRego--", new { required = "required" })
+                                                       
+                        </div>
+                        <div>                                          
+                               @Html.EditorFor(model => Model.MakeCmb,new { htmlAttributes = new { @readonly = "readonly", @class = "form-control" } })
+                        </div>
+                        <div>
+                            @Html.EditorFor(model => Model.MakeMileage, new { htmlAttributes = new { @readonly = "readonly", @class = "form-control" } })
+                        </div>
+              
+                        <div>
+                            @Html.EditorFor(model => Model.StartMileage,new { htmlAttributes = new { required = "required", placeholder = "Start Mileage",@Title="Start Mileage"} })
+                            @Html.ValidationMessageFor(Model => Model.StartMileage)
+                        </div>
+                        <div>
+
+                            @Html.EditorFor(model => Model.EndMileage, new { htmlAttributes = new { required = "required", placeholder = "End Mileage",} })
+                            @Html.ValidationMessageFor(Model => Model.EndMileage)
+                        </div>
+                        <div id="newBooks"></div>
+                        <div class="row">
+                            <div class="three columns">
+                                @* @Html.ValidationMessageFor(Model => Model.Division)*@
+                                @Html.DropDownListFor(model => Model.Division, null, "--Select Division--", new { required = "required" })
+                            </div>
+                            <div class="three columns">
+                                @* @Html.ValidationMessageFor(Model => Model.Course)*@
+                                @Html.DropDownListFor(model => Model.Course, null, "--Select Course--", new { required = "required" })
+                            </div>
+                            <div class="three columns">
+                                @*@Html.ValidationMessageFor(Model => Model.Campus)*@
+                                @Html.DropDownListFor(model => Model.Campus, null, "--Select Campus--", new { required = "required" })
+                            </div>
+                            <div class="three columns">
+                                <button type="button" id="btnAdd" class="addButton">Add Another Trip</button>
+                            </div>
+                        </div>
+                        <div>
+                            @*@Html.ValidationMessageFor(Model => Model.Comment)*@
+                            @Html.EditorFor(model => Model.Comment, new { htmlAttributes = new { placeholder = "Comments" } })
+                        </div>
+                        <div>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </div>
+                    <hr />
+                    <footer>
+                        <h6>Contact admin@VisionCollege.co.nz if you encounter any issues</h6>
+                    </footer>
+                </div>
+            </div>}
+    </body>
+</html>
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VelogDataModelStoreContainer" CdmEntityContainer="VelogDataContext">
+    <EntitySetMapping Name="VeLogDatas">
+      <EntityTypeMapping TypeName="VelogDataModel.VeLogData">
+        <MappingFragment StoreEntitySet="tblVeLogData">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="StartMileage" ColumnName="StartMileage" />
+          <ScalarProperty Name="EndMileage" ColumnName="EndMileage" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="DriverName" ColumnName="DriverName" />
+          <ScalarProperty Name="Division" ColumnName="Division" />
+          <ScalarProperty Name="Campus" ColumnName="Campus" />
+          <ScalarProperty Name="Course" ColumnName="Course" />
+          <ScalarProperty Name="VehicleRego" ColumnName="VehicleRego" />
+          <ScalarProperty Name="Distance" ColumnName="Distance" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TripId" ColumnName="TripId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblvelogUsers">
+      <EntityTypeMapping TypeName="VelogDataModel.tblvelogUser">
+        <MappingFragment StoreEntitySet="tblvelogUsers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblvelogCampus">
+      <EntityTypeMapping TypeName="VelogDataModel.tblvelogCampu">
+        <MappingFragment StoreEntitySet="tblvelogCampus">
+          <ScalarProperty Name="Campus" ColumnName="Campus" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblvelogCourses">
+      <EntityTypeMapping TypeName="VelogDataModel.tblvelogCours">
+        <MappingFragment StoreEntitySet="tblvelogCourses">
+          <ScalarProperty Name="Division" ColumnName="Division" />
+          <ScalarProperty Name="Courses" ColumnName="Courses" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblvelogDivisions">
+      <EntityTypeMapping TypeName="VelogDataModel.tblvelogDivision">
+        <MappingFragment StoreEntitySet="tblvelogDivision">
+          <ScalarProperty Name="Division" ColumnName="Division" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblVelogCars">
+      <EntityTypeMapping TypeName="VelogDataModel.tblVelogCar">
+        <MappingFragment StoreEntitySet="tblVelogCars">
+          <ScalarProperty Name="Colour" ColumnName="Colour" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Make" ColumnName="Make" />
+          <ScalarProperty Name="Registration" ColumnName="Registration" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

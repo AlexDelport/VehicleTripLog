@@ -1,0 +1,159 @@
+ Create table tblVeLogData
+(
+	Id int primary key identity(1,1)
+	,CreationDate Date
+	,StartMileage float
+	,EndMileage float
+	,Comment varchar(2000)
+        ,DriverName varchar(100)
+        ,Division varchar(100)
+        ,Campus varchar(100)	
+        ,Course varchar(100)
+	,VehicleRego varchar(100)
+	,Distance float
+	,Status varchar(100)
+	,TripId varchar(2000)
+)
+
+create table tblvelogDivision
+(
+	Id int primary key identity(1,1)
+	,Division varchar(100)
+)
+
+insert into tblvelogDivision values ('Corporate')
+insert into tblvelogDivision values ('Instant')
+insert into tblvelogDivision values ('LDNZ')
+insert into tblvelogDivision values ('Vision College')
+insert into tblvelogDivision values ('TrainMe')
+
+create table tblvelogCampus
+(
+	Id int primary key identity(1,1)
+	,Campus varchar(100)
+)
+
+insert into tblvelogCampus values ('Christchurch')
+insert into tblvelogCampus values ('East Tamaki')
+insert into tblvelogCampus values ('Hamilton')
+insert into tblvelogDivision values ('Head Office')
+insert into tblvelogDivision values ('Highland Park')
+insert into tblvelogCampus values ('Pukekohe')
+insert into tblvelogDivision values ('Tokoroa')
+
+Create table tblvelogCourses
+(
+	Id int primary key identity(1,1)
+	,Courses varchar(100)
+	,Division varchar(100)
+)
+
+insert into tblvelogCourses values ('In-house','ATC Pro')
+insert into tblvelogCourses values ('IntenLit','ATC Pro')
+insert into tblvelogCourses values ('Workplace Lit&Num','ATC Pro')
+insert into tblvelogCourses values ('Events/Programmes','ATC Pro')
+insert into tblvelogCourses values ('Public Courses','ATC Pro')
+insert into tblvelogCourses values ('Strat Leadership','ATC Pro')
+
+insert into tblvelogCourses values ('Admin','Corporate')
+insert into tblvelogCourses values ('Marketing','Corporate')
+
+insert into tblvelogCourses values ('Achieve Std','Instant')
+insert into tblvelogCourses values ('Assess Svc','Instant')
+insert into tblvelogCourses values ('Custom Auth','Instant')
+insert into tblvelogCourses values ('Distribution','Instant')
+insert into tblvelogCourses values ('Annual Licences','Instant')
+insert into tblvelogCourses values ('Product Development','Instant')
+insert into tblvelogCourses values ('International Sales','Instant')
+insert into tblvelogCourses values ('Unit Std','Instant')
+
+insert into tblvelogCourses values ('Alt Education','TrainMe')
+insert into tblvelogCourses values ('Security','TrainMe')
+insert into tblvelogCourses values ('Mechanical Engineering SAC','TrainMe')
+insert into tblvelogCourses values ('Mechanical Engineering YG','TrainMe')
+insert into tblvelogCourses values ('#Ultimate','TrainMe')
+insert into tblvelogCourses values ('Agriculture','TrainMe')
+insert into tblvelogCourses values ('First Aid','TrainMe')
+insert into tblvelogCourses values ('Youth Justice','TrainMe')
+insert into tblvelogCourses values ('STAR','TrainMe')
+insert into tblvelogCourses values ('ILN','TrainMe')
+insert into tblvelogCourses values ('ESOL','TrainMe')
+insert into tblvelogCourses values ('TFW Hamilton','TrainMe')
+insert into tblvelogCourses values ('TFW Ngaruawahia','TrainMe')
+insert into tblvelogCourses values ('Horticulture','TrainMe')
+insert into tblvelogCourses values ('Welding','TrainMe')
+
+insert into tblvelogCourses values ('Web','Vision College')
+insert into tblvelogCourses values ('Software','Vision College')
+insert into tblvelogCourses values ('NCBAC','Vision College')
+insert into tblvelogCourses values ('NZ Dip Bus','Vision College')
+insert into tblvelogCourses values ('Music','Vision College')
+insert into tblvelogCourses values ('Ministry','Vision College')
+insert into tblvelogCourses values ('ECE L3','Vision College')
+insert into tblvelogCourses values ('ECE L5','Vision College')
+insert into tblvelogCourses values ('Leadership','Vision College')
+insert into tblvelogCourses values ('Counselling','Vision College')
+insert into tblvelogCourses values ('English','Vision College')
+insert into tblvelogCourses values ('STAR','Vision College')
+
+Create table tblvelogUsers
+(
+Id int primary key identity(1,1)
+	,Username varchar(100)
+	,Password varchar(50)
+	,Role varchar(100)
+)
+
+Create table tblVelogCars
+(
+	Id int NOT NULL PRIMARY KEY IDENTITY(1,1),
+ 	Registration varchar (100),
+ 	Make varchar (100),
+ 	Model varchar (100),
+ 	Colour varchar (100)
+)
+
+insert into tblVelogCars values ('YU154','Ford','Mondeo','Pepper Red')
+insert into tblVelogCars values ('ASY137','Ford','Mondeo','Stardust Silver')
+insert into tblVelogCars values ('BEH230','Nissan','Primera','White')
+insert into tblVelogCars values ('XQ5016','Ford','Econovan','White')
+insert into tblVelogCars values ('YW1684','Ford','Econovan','White')
+insert into tblVelogCars values ('AJZ114','Mazda','E2500','White')
+insert into tblVelogCars values ('CWT365','Ford','Mondeo','Red')
+insert into tblVelogCars values ('YK3256','Toyota','Hiace','White')
+insert into tblVelogCars values ('ZA6441','Hyundai','H100','White')
+insert into tblVelogCars values ('DQE677','Nissan','Maxima','Black')
+insert into tblVelogCars values ('ZI9751','Ford','Transit','White')
+insert into tblVelogCars values ('DTN924','Mitsubishi','Delica','White')
+insert into tblVelogCars values ('BZR373','Nissan','Primera','Charcoal Grey')
+insert into tblVelogCars values ('FCU15','Ford','Mondeo','White')
+insert into tblVelogCars values ('FFP463','Toyota','Hiace','White')
+insert into tblVelogCars values ('EGY67','Mitsubishi','Lancer SX','Unknown')
+insert into tblVelogCars values ('EFT376','Hyundai','Sonata','Champagne')
+insert into tblVelogCars values ('YE7624','Toyota','Hiace','White')
+insert into tblVelogCars values ('ARF578','Honda','CRV','Silver')
+insert into tblVelogCars values ('FYU154','Ford','Fiesta','Light Green')
+insert into tblVelogCars values ('FYM207','Mitsubishi','Lancer','Blue')
+insert into tblVelogCars values ('GBN387','Ford','Mondeo','Silver')
+insert into tblVelogCars values ('DML673','Ford','Mondeo','Gold')
+insert into tblVelogCars values ('ETN278','Mazda','6','Blue')
+insert into tblVelogCars values ('ECB254','Hyundai','Sonata','Black')
+insert into tblVelogCars values ('GLY252','Lexus','GS450H','Black')
+insert into tblVelogCars values ('ERJ331','Ford','Mondeo','Grey')
+insert into tblVelogCars values ('EFG934','Toyota','Hiace','White/Grey')
+insert into tblVelogCars values ('FYH372','Nissan','Caravan','Silver')
+insert into tblVelogCars values ('CKG440','Toyota','Hiace','Light Green')
+insert into tblVelogCars values ('BCA201','Holden','Rodeo','Red')
+insert into tblVelogCars values ('ELK659','Nissan','Urvan','White')
+insert into tblVelogCars values ('ELK651','Nissan','Urvan','White')
+insert into tblVelogCars values ('ERB365','Nissan','Urvan','White')
+insert into tblVelogCars values ('XP1907','Toyota','Hiace','White')
+insert into tblVelogCars values ('ESM592','Toyota','Hiace','Blue')
+insert into tblVelogCars values ('FAP218','Toyota','Hiace','White')
+insert into tblVelogCars values ('ETL357','Toyota','Hiace','White')
+insert into tblVelogCars values ('FAP217','Toyota','Hiace','White')
+insert into tblVelogCars values ('R1VCTY','Toyota','Corolla','Blue')
+insert into tblVelogCars values ('RIVCTY','Toyota','Camry Wagon','Green')
+insert into tblVelogCars values ('JFZ187','Mazda','CX-5','Red')
+
+

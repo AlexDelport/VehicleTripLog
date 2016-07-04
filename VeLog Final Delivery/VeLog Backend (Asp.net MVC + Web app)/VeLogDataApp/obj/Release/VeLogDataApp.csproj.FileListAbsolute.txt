@@ -1,0 +1,415 @@
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\roslyn\csc.exe
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\roslyn\Microsoft.CSharp.Core.targets
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\roslyn\System.Collections.Immutable.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\roslyn\System.Reflection.Metadata.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\roslyn\vbc.exe
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\roslyn\VBCSCompiler.exe
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\roslyn\VBCSCompiler.exe.config
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\VeLogDataApp.dll.config
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\VeLogDataApp.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\VeLogDataApp.pdb
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Antlr3.Runtime.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\BeginCollectionItem.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\EntityFramework.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\EntityFramework.SqlServer.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Microsoft.AspNet.Identity.Core.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Microsoft.AspNet.Identity.Owin.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Microsoft.Owin.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Microsoft.Owin.Security.Cookies.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Microsoft.Owin.Security.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Microsoft.Owin.Security.OAuth.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Microsoft.Web.Infrastructure.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\MvcValidationExtensions.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Newtonsoft.Json.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Owin.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Net.Http.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Net.Http.Extensions.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Net.Http.Formatting.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Net.Http.Primitives.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Net.Http.WebRequest.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Web.Helpers.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Web.Mvc.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Web.Optimization.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Web.Razor.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Web.WebPages.Deployment.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Web.WebPages.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Web.WebPages.Razor.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\WebGrease.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\EntityFramework.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\EntityFramework.SqlServer.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Microsoft.AspNet.Identity.Core.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Microsoft.AspNet.Identity.Owin.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Microsoft.Owin.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Microsoft.Owin.Security.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Microsoft.Owin.Security.Cookies.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Microsoft.Owin.Security.OAuth.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Net.Http.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Net.Http.WebRequest.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Web.Helpers.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Web.Mvc.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Web.Optimization.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Web.Razor.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Web.WebPages.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Web.WebPages.Deployment.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\System.Web.WebPages.Razor.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Antlr3.Runtime.pdb
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\bin\Newtonsoft.Json.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\obj\Release\VeLogDataApp.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp_User\VeLogDataApp\obj\Release\VeLogDataApp.pdb
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\roslyn\csc.exe
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CSharp.Core.targets
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\roslyn\System.Collections.Immutable.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\roslyn\System.Reflection.Metadata.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\roslyn\vbc.exe
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\roslyn\VBCSCompiler.exe
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\roslyn\VBCSCompiler.exe.config
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\VeLogDataApp.dll.config
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\VeLogDataApp.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\VeLogDataApp.pdb
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Antlr3.Runtime.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\BeginCollectionItem.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\EntityFramework.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\EntityFramework.SqlServer.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Core.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Owin.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.Cookies.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.OAuth.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Microsoft.Web.Infrastructure.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\MvcValidationExtensions.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Newtonsoft.Json.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Owin.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Extensions.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Formatting.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Primitives.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.WebRequest.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Web.Helpers.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Web.Mvc.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Web.Optimization.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Web.Razor.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Deployment.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Razor.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\WebGrease.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\EntityFramework.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\EntityFramework.SqlServer.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Core.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Owin.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.Cookies.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.OAuth.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.WebRequest.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Web.Helpers.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Web.Mvc.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Web.Optimization.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Web.Razor.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Deployment.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Razor.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Antlr3.Runtime.pdb
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\bin\Newtonsoft.Json.xml
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\obj\Release\VeLogDataApp.csprojResolveAssemblyReference.cache
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\obj\Release\VeLogDataApp.dll
+\\telmar\users\MA030\My Documents\Visual Studio 2015\Projects\Latest Code\VeLogDataApp\VeLogDataApp\obj\Release\VeLogDataApp.pdb
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\roslyn\csc.exe
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\roslyn\vbc.exe
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\VeLogDataApp.dll.config
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\VeLogDataApp.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\VeLogDataApp.pdb
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Antlr3.Runtime.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\BeginCollectionItem.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\EntityFramework.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\MvcValidationExtensions.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Newtonsoft.Json.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Owin.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Extensions.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Formatting.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Primitives.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.WebRequest.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.Helpers.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.Http.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.Http.WebHost.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.Mvc.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.Optimization.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.Razor.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\WebGrease.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\EntityFramework.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Formatting.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.WebRequest.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.Http.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.Http.WebHost.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.Helpers.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.Mvc.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.Optimization.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.Razor.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Antlr3.Runtime.pdb
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\bin\Newtonsoft.Json.xml
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\obj\Release\VeLogDataApp.csprojResolveAssemblyReference.cache
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\obj\Release\VeLogDataApp.dll
+C:\Users\Manju\Documents\visual studio 2015\Projects\latest\VeLogDataApp\VeLogDataApp\obj\Release\VeLogDataApp.pdb
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\roslyn\csc.exe
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CSharp.Core.targets
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\roslyn\System.Collections.Immutable.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\roslyn\System.Reflection.Metadata.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\roslyn\vbc.exe
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\roslyn\VBCSCompiler.exe
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\roslyn\VBCSCompiler.exe.config
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\VeLogDataApp.dll.config
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\VeLogDataApp.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\VeLogDataApp.pdb
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Antlr3.Runtime.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\BeginCollectionItem.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\EntityFramework.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\EntityFramework.SqlServer.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Core.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Owin.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.Cookies.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.OAuth.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Microsoft.Web.Infrastructure.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\MvcValidationExtensions.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Newtonsoft.Json.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Owin.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Extensions.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Formatting.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Primitives.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.WebRequest.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.Helpers.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.Http.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.Http.WebHost.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.Mvc.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.Optimization.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.Razor.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Deployment.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Razor.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\WebGrease.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\EntityFramework.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\EntityFramework.SqlServer.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Core.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Owin.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.Cookies.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.OAuth.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Formatting.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.WebRequest.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.Http.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.Http.WebHost.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.Helpers.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.Mvc.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.Optimization.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.Razor.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Deployment.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Razor.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Antlr3.Runtime.pdb
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\bin\Newtonsoft.Json.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\obj\Release\VeLogDataApp.csprojResolveAssemblyReference.cache
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\obj\Release\VeLogDataApp.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Final\VeLogDataApp\VeLogDataApp\obj\Release\VeLogDataApp.pdb
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\roslyn\csc.exe
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CSharp.Core.targets
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\roslyn\System.Collections.Immutable.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\roslyn\System.Reflection.Metadata.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\roslyn\vbc.exe
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\roslyn\VBCSCompiler.exe
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\roslyn\VBCSCompiler.exe.config
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\VeLogDataApp.dll.config
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\VeLogDataApp.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\VeLogDataApp.pdb
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Antlr3.Runtime.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\BeginCollectionItem.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\EntityFramework.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\EntityFramework.SqlServer.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Core.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Owin.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.Cookies.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.OAuth.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Microsoft.Web.Infrastructure.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\MvcValidationExtensions.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Newtonsoft.Json.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Owin.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Extensions.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Formatting.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Primitives.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.WebRequest.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.Helpers.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.Http.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.Http.WebHost.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.Mvc.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.Optimization.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.Razor.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Deployment.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Razor.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\WebGrease.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\EntityFramework.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\EntityFramework.SqlServer.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Core.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Owin.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.Cookies.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.OAuth.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Formatting.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.WebRequest.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.Http.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.Http.WebHost.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.Helpers.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.Mvc.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.Optimization.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.Razor.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Deployment.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Razor.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Antlr3.Runtime.pdb
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\bin\Newtonsoft.Json.xml
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\obj\Release\VeLogDataApp.csprojResolveAssemblyReference.cache
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\obj\Release\VeLogDataApp.dll
+\\telmar\users\ma030\My Documents\Visual Studio 2015\Projects\Submission\VeLogDataApp\VeLogDataApp\obj\Release\VeLogDataApp.pdb
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\roslyn\csc.exe
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.CSharp.Core.targets
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\roslyn\System.Collections.Immutable.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\roslyn\System.Reflection.Metadata.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\roslyn\vbc.exe
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\roslyn\VBCSCompiler.exe
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\roslyn\VBCSCompiler.exe.config
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\VeLogDataApp.dll.config
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\VeLogDataApp.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\VeLogDataApp.pdb
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Antlr3.Runtime.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\BeginCollectionItem.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\EntityFramework.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\EntityFramework.SqlServer.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Core.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Owin.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.Cookies.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.OAuth.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Microsoft.Web.Infrastructure.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\MvcValidationExtensions.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Newtonsoft.Json.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Owin.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Extensions.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Formatting.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Primitives.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.WebRequest.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.Helpers.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.Http.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.Http.WebHost.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.Mvc.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.Optimization.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.Razor.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Deployment.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Razor.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\WebGrease.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\EntityFramework.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\EntityFramework.SqlServer.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Core.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Microsoft.AspNet.Identity.Owin.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.Cookies.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Microsoft.Owin.Security.OAuth.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.Formatting.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Net.Http.WebRequest.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.Http.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.Http.WebHost.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.Helpers.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.Mvc.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.Optimization.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.Razor.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Deployment.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\System.Web.WebPages.Razor.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Antlr3.Runtime.pdb
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\bin\Newtonsoft.Json.xml
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\obj\Release\VeLogDataApp.csprojResolveAssemblyReference.cache
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\obj\Release\VeLogDataApp.dll
+S:\Software\Shared\AA Group Project 2015-2016\VeLog Final Delivery\VeLogDataApp\VeLogDataApp\obj\Release\VeLogDataApp.pdb

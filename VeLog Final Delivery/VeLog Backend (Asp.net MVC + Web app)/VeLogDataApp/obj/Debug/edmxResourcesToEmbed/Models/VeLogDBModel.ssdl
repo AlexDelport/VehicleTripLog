@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VeLogDBModels.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Manju2015.dbo.tblCampus' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tblCampus">
+          <Property Name="campusName" Type="varchar" MaxLength="50" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Manju2015.dbo.tblCourses' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tblCourses">
+          <Property Name="DivisionName" Type="varchar" MaxLength="50" />
+          <Property Name="courseName" Type="varchar" MaxLength="50" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Manju2015.dbo.tblDivision' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tblDivision">
+          <Property Name="DivisionName" Type="varchar" MaxLength="50" />
+        </EntityType>-->
+  <EntityType Name="tblLocations">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="campusName" Type="varchar" MaxLength="50" />
+    <Property Name="DivisionName" Type="varchar" MaxLength="50" />
+    <Property Name="courseName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblVeLogData">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CreationDate" Type="date" />
+    <Property Name="StartMileage" Type="float" />
+    <Property Name="EndMileage" Type="float" />
+    <Property Name="Comment" Type="varchar" MaxLength="2000" />
+    <Property Name="DriverName" Type="varchar" MaxLength="100" />
+    <Property Name="Division" Type="varchar" MaxLength="50" />
+    <Property Name="Campus" Type="varchar" MaxLength="50" />
+    <Property Name="Course" Type="varchar" MaxLength="50" />
+    <Property Name="VehicleRego" Type="varchar" MaxLength="50" />
+    <Property Name="Distance" Type="float" />
+    <Property Name="Status" Type="varchar" MaxLength="50" />
+    <Property Name="TripId" Type="varchar" MaxLength="2000" />
+  </EntityType>
+  <EntityContainer Name="VeLogDBModelsStoreContainer">
+    <EntitySet Name="tblLocations" EntityType="Self.tblLocations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblVeLogData" EntityType="Self.tblVeLogData" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

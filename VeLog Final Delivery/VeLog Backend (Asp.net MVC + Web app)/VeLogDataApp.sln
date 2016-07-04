@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeLogDataApp", "VeLogDataApp\VeLogDataApp.csproj", "{2523D88D-71AB-45F2-A559-B1E3AD2BD8F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{09751E63-4F73-48A5-BE97-9B8E39108B11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{59605452-08FB-494A-B45B-9652865E0C29}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{BD6A3A72-BFF1-41A5-9F61-B626ED11F38B}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\VeLogDataApp.json = PublishScripts\Templates\VeLogDataApp.json
+		PublishScripts\Templates\VeLogDataApp.param.dev.json = PublishScripts\Templates\VeLogDataApp.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2523D88D-71AB-45F2-A559-B1E3AD2BD8F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2523D88D-71AB-45F2-A559-B1E3AD2BD8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2523D88D-71AB-45F2-A559-B1E3AD2BD8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2523D88D-71AB-45F2-A559-B1E3AD2BD8F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59605452-08FB-494A-B45B-9652865E0C29} = {09751E63-4F73-48A5-BE97-9B8E39108B11}
+		{BD6A3A72-BFF1-41A5-9F61-B626ED11F38B} = {09751E63-4F73-48A5-BE97-9B8E39108B11}
+	EndGlobalSection
+EndGlobal

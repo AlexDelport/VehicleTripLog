@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="VelogDataContext-Web.config Connection String" description="VelogDataContext Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.VeLogDataModel.csdl|res://*/Models.VeLogDataModel.ssdl|res://*/Models.VeLogDataModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=velog.database.windows.net;initial catalog=velog;user id=velog;password=Genesis26;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="S:\\Software\\Shared\\AA\ Group\ Project\ 2015-2016\\VeLog\ Final\ Delivery\\VeLogDataApp\\VeLogDataApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='VelogDataContext']/@connectionString" />
+  </parameter>
+</parameters>

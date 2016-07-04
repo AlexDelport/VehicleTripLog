@@ -1,0 +1,18 @@
+--------------- Latest Website ----------------------- 
+
+http://velogdataentry.azurewebsites.net
+
+--------------- Latest API URI's ----------------------- 
+
+http://velogdataentry.azurewebsites.net/api/VeLogDataAPI
+
+http://velogdataentry.azurewebsites.net/api/VelogDivisionAPI
+
+http://velogdataentry.azurewebsites.net/api/VelogCampusAPI
+
+http://velogdataentry.azurewebsites.net/api/VelogCourseAPI
+
+http://velogdataentry.azurewebsites.net/api/VelogCarsAPI
+
+http://velogdataentry.azurewebsites.net/api/VelogUsersAPI
+

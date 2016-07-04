@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VeLogDBModelsStoreContainer" CdmEntityContainer="VeLogDBContext">
+    <EntitySetMapping Name="tblLocations">
+      <EntityTypeMapping TypeName="VeLogDBModels.tblLocation">
+        <MappingFragment StoreEntitySet="tblLocations">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="campusName" ColumnName="campusName" />
+          <ScalarProperty Name="DivisionName" ColumnName="DivisionName" />
+          <ScalarProperty Name="courseName" ColumnName="courseName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblVeLogDatas">
+      <EntityTypeMapping TypeName="VeLogDBModels.tblVeLogData">
+        <MappingFragment StoreEntitySet="tblVeLogData">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="StartMileage" ColumnName="StartMileage" />
+          <ScalarProperty Name="EndMileage" ColumnName="EndMileage" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="DriverName" ColumnName="DriverName" />
+          <ScalarProperty Name="Division" ColumnName="Division" />
+          <ScalarProperty Name="Campus" ColumnName="Campus" />
+          <ScalarProperty Name="Course" ColumnName="Course" />
+          <ScalarProperty Name="VehicleRego" ColumnName="VehicleRego" />
+          <ScalarProperty Name="Distance" ColumnName="Distance" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TripId" ColumnName="TripId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
