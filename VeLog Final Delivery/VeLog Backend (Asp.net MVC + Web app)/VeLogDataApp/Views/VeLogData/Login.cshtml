@@ -24,11 +24,11 @@
                 </div>
                 <div>
                     <div>
-                        @Html.EditorFor(model => Model.Username, new { htmlAttributes = new { placeholder = "Driver Name" } })
+                        @Html.EditorFor(model => Model.Username, new { htmlAttributes = new { placeholder = "Username" } })
                         @Html.ValidationMessageFor(Model => Model.Username, "", new { @class = "text-danger" })
-                    </div>
+                    </div>                              
                     <div>
-                        @Html.PasswordFor(model => Model.Password, new { htmlAttributes = new { placeholder = "Driver Name" } })
+                        @Html.PasswordFor(model => Model.Password, new { @class = "form-control", @placeholder = "Password" })
                         @Html.ValidationMessageFor(Model => Model.Password, "", new { @class = "text-danger" })
                     </div>
                     <div>

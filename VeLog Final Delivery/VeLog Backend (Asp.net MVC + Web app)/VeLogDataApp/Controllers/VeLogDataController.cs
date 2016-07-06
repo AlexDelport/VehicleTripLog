@@ -11,10 +11,12 @@ namespace VeLogDataApp.Controllers
 {
     public class VeLogDataController : Controller
     {
-        
+
+
         
         public ActionResult Login()
         {
+           
             return View();
         }
 
@@ -57,7 +59,7 @@ namespace VeLogDataApp.Controllers
         }
 
         [Authorize]
-        public ActionResult Create()
+        public ActionResult Create(string message = "")
 
         {
             VelogDataContext dbContext = new VelogDataContext();
@@ -66,7 +68,8 @@ namespace VeLogDataApp.Controllers
             ViewBag.Course = new SelectList(dbContext.tblvelogCourses, "Courses", "Courses");
             ViewBag.Campus = new SelectList(dbContext.tblvelogCampus, "Campus", "Campus");
             ViewBag.VehicleRego = new SelectList(dbContext.tblVelogCars, "Registration", "Registration");
-            
+            ViewBag.result = message;
+
             return View();
         }
 
@@ -199,7 +202,8 @@ namespace VeLogDataApp.Controllers
                     }
 
                 }
-                return RedirectToAction("Create");
+                
+                return RedirectToAction("Create",new { message = "Mileage Details added successfully!!!" });
             }
 
             else
