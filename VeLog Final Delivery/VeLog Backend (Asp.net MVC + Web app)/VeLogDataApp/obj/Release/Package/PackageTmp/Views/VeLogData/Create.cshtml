@@ -77,7 +77,7 @@
                     data: { Reg: $("#VehicleRego").val() }
                 }).success(function (data) {
                     $.each(data, function (i, rec) {
-                        $('#MakeMileage').val(' End Mileage from previous trip=' + rec.endMileage )
+                        $('#MakeMileage').val(rec.endMileage + ' was the End Mileage from previous trip' )
 
                     });
                 });
@@ -110,6 +110,12 @@
                 <div class="container">
                     <div class="twelve columns" style="margin-top: 5%">
                         <div> <img src="~/Content/atccorp_logo.png" alt="ATC New Zealand" /> <h1>Vehicle Logger</h1></div>
+
+                        <p>
+                        <br>
+                        <h5>@ViewBag.result</h5>
+                        </p>
+
                         <div>
                             @*@Html.ValidationMessageFor(Model => Model.DriverName)*@
                             @Html.EditorFor(model => Model.DriverName, new { htmlAttributes = new { required = "required", placeholder = "Driver Name" } })
@@ -120,10 +126,10 @@
                                                        
                         </div>
                         <div>                                          
-                               @Html.EditorFor(model => Model.MakeCmb,new { htmlAttributes = new { @readonly = "readonly", @class = "form-control" } })
+                               @Html.EditorFor(model => Model.MakeCmb,new { htmlAttributes = new { @readonly = "readonly", @class = "form-control", placeholder = "Car Details" } })
                         </div>
                         <div>
-                            @Html.EditorFor(model => Model.MakeMileage, new { htmlAttributes = new { @readonly = "readonly", @class = "form-control" } })
+                            @Html.EditorFor(model => Model.MakeMileage, new { htmlAttributes = new { @readonly = "readonly", @class = "form-control", placeholder = "Previous trip End Mileage" } })
                         </div>
               
                         <div>
